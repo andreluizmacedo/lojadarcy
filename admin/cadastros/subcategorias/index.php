@@ -16,7 +16,8 @@
     <label for="exampleInputEmail1">SubCategoria</label>
     <input type="text" class="form-control" id="txtSubtegoria" name="txtSubCategoria" placeholder="Informe a SubCategoria">
   </div>
-  
+  <input type="hidden" value="0" id="alterando" name="alterando">
+  <input type="hidden" value="0" id="id_alterar" name="id_alterar">
   <button type="submit" class="btn btn-primary" id="btnSalvar">Gravar SubCategoria</button>
 </form>
 
